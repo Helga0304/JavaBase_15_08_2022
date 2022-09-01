@@ -126,7 +126,6 @@ scanner.close();
             } else {
                 System.out.println("resultTeam1 < resultTeam2");
         }
-
         String strTeam1 = "Sharks";
         String strTeam2 = "Furia";
 
