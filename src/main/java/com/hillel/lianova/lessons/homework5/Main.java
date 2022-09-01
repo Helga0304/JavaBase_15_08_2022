@@ -130,7 +130,6 @@ scanner.close();
         String strTeam1 = "Sharks";
         String strTeam2 = "Furia";
 
-
         System.out.println("team won " + strTeam2  + " scored " + resultTeam2 + " points "  );
     }
 }
