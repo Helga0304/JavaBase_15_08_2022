@@ -27,6 +27,7 @@ public class Main {
                 }
             } else {
                 System.out.println("WRONG DATA! TRY AGAIN!");
+                scanner.nextLine();
             }
         }
     }
