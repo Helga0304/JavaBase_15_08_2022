@@ -33,11 +33,19 @@ public class Main {
         System.out.println();
 
         int sumTeam1 = 0;
-        for (int i = 0; i < team2.length; i++) {
+        for (int i = 0; i < team1.length; i++) {
             sumTeam1 += team1[i];
         }
             int avgTeam1 = sumTeam1 / team1.length;
-            System.out.println("Average age team " + avgTeam1);
+            System.out.println("Average age team 1 " + avgTeam1);
+
+        int sumTeam2 = 0;
+        for (int i = 0; i < team2.length; i++) {
+            sumTeam2 += team2[i];
+        }
+        int avgTeam2 = sumTeam2 / team1.length;
+        System.out.println("Average age team 2 " + avgTeam2);
+
         }
 }
 
