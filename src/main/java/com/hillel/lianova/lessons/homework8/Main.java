@@ -1,4 +1,4 @@
-package com.hillel.lianova.lessons.homewotk8;
+package com.hillel.lianova.lessons.homework8;
 
 public class Main {
     public static void main(String[] args) {
