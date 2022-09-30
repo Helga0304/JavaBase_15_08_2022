@@ -1,12 +1,6 @@
 package com.hillel.lianova.lessons.homework13;
 
-public class PersonMain extends FitnessTracker {
-    public PersonMain(String NAME, int DAY_OF_BIRTHDAY, int MONTH_OF_BIRTH, int YEAR_OF_BIRTH, String EMAIL,
-                      int PHONE_NUMBER, String surname, double weight, int topPressure, int lowerPressure,
-                      int numberOfSteps) {
-        super(NAME, DAY_OF_BIRTHDAY, MONTH_OF_BIRTH, YEAR_OF_BIRTH, EMAIL, PHONE_NUMBER, surname, weight,
-                topPressure, lowerPressure, numberOfSteps);
-    }
+public class PersonMain {
 
     public static void main(String[] args) {
         FitnessTracker person1 = new FitnessTracker("Olha", 3, 4,

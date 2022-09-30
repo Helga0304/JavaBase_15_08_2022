@@ -1,7 +1,5 @@
 package com.hillel.lianova.lessons.homework13;
 
-import javax.management.StringValueExp;
-
 public class FitnessTracker {
     private final String NAME;
     private final int DAY_OF_BIRTHDAY;
@@ -14,7 +12,7 @@ public class FitnessTracker {
     private int topPressure;
     private int lowerPressure;
     private int numberOfSteps;
-    private final int age;
+    private int age;
 
     public FitnessTracker(String NAME, int DAY_OF_BIRTHDAY, int MONTH_OF_BIRTH, int YEAR_OF_BIRTH, String EMAIL,
                           int PHONE_NUMBER, String surname, double weight, int topPressure, int lowerPressure,
@@ -30,7 +28,7 @@ public class FitnessTracker {
         this.topPressure = topPressure;
         this.lowerPressure = lowerPressure;
         this.numberOfSteps = numberOfSteps;
-        this.age = 2020 - YEAR_OF_BIRTH;
+        age = 2020 - YEAR_OF_BIRTH;
     }
 
     public String getNAME() {
